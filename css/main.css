@@ -33,6 +33,14 @@ a{
 }
 
 /* --------------- HEADER SECTION STYLE START --------------- */
+.site-header{
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  box-shadow: 0px 0px 8px -1px rgba(34, 60, 80, 0.3);
+  z-index: 100;
+}
+
 .site-header__wrapper{
   display: flex;
   justify-content: space-between;
